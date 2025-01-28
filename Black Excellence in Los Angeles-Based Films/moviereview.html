@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Black Excellence in Los Angeles-Based Movies
+        </title>
+        <style>
+            body {
+                background-color: rgb(103, 63, 20);
+                color: rgb(218, 178, 135);
+                margin-left: 100px;
+                margin-right: 100px;
+                
+            }
+
+           #header {
+                padding-top: 20px;
+                padding-bottom: 5px;
+                text-align: center;
+                font-size: 36px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .logo {
+                margin-top: 10px;
+                width: 150px;
+
+            }
+
+            #description {
+                text-align: center;
+                padding-left: 200px;
+                padding-right: 200px;
+                padding-bottom: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            #movies {
+                display: flex;
+            }
+
+            #movie-column {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #movie1 {
+                width: 467px;
+                height: 1159px;
+                background-color: rgb(247, 251, 130);
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            #movie1-title {
+                font-size: 20px;
+                color: rgb(172, 170, 18);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .movie1-img {
+                width: 467px;
+                height: 700px;
+                float: left;
+                margin-right: 15px;
+                margin-bottom: 10px;
+            }
+
+            #movie1-description {
+                font-size: 14px;
+                color: rgb(172, 170, 18);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-bottom: -5px;
+            }
+
+            #movie1-container {
+                background-color: rgb(172, 170, 18);
+                color: rgb(247, 251, 130);
+                font-size: 14px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-top: 79px;
+                padding: auto;
+                padding: 5px;
+            }
+
+            #movie2 {
+                width: 683px;
+                height: 334px;
+                background-color: rgb(170, 249, 146);
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-left: 10px;
+            }
+
+            #movie2-title {
+                font-size: 20px;
+                color: rgb(90, 179, 63);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .movie2-img {
+                width: 190px;
+                height: 284px;
+                float: left;
+                margin-right: 15px;
+            }
+
+            #movie2-description {
+                font-size: 14px;
+                color: rgb(90, 179, 63);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            #movie2-container {
+                background-color: rgb(90, 179, 63);
+                color: rgb(170, 249, 146);
+                font-size: 14px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-top: 20px;
+                margin-left: 205px;
+                padding: auto;
+                padding: 5px;
+            }
+
+            #movie3 {
+                width: 683px;
+                height: 394px;
+                background-color: rgb(247, 179, 179);
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-left: 10px;
+            }
+
+            #movie3-title {
+                font-size: 20px;
+                color: rgb(225, 99, 99);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .movie3-img {
+                width: 260px;
+                height: 346px;
+                float: left;
+                margin-right: 15px;
+            }
+
+            #movie3-description {
+                font-size: 14px;
+                color: rgb(225, 99, 99);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            #movie3-container {
+                background-color: rgb(225, 99, 99);
+                color: rgb(247, 179, 179);
+                font-size: 14px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-top: 15px;
+                margin-left: 275px;
+                padding: auto;
+                padding: 5px;
+            }
+
+            #movie4 {
+                width: 683px;
+                height: 394px;
+                background-color: rgb(156, 215, 252);
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-left: 10px;
+            }
+
+            #movie4-title {
+                font-size: 20px;
+                color: rgb(53, 135, 186);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .movie4-img {
+                width: 260px;
+                height: 346px;
+                float: left;
+                margin-right: 15px;
+            }
+
+            #movie4-description {
+                font-size: 14px;
+                color: rgb(53, 135, 186);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            #movie4-container {
+                background-color: rgb(53, 135, 186);
+                color: rgb(156, 215, 252);
+                font-size: 14px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-top: 49px;
+                margin-left: 275px;
+                padding: auto;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Movie Review Title -->
+        <div id="header">Black Excellence in Los Angeles-Based Movies<br><img class="logo"src="Black Excellence Film Logo.png"></div>
+
+        <!-- Movie Review Description -->
+        <div id="description">As we return to USC, let's take a moment to reflect on the powerful history and stories that have come from the streets, neighborhoods, and dreams of this city. From 1991 to 2025, Los Angeles has been home to some of the most influential films that highlight <strong>Black</strong> culture, resilience, and brilliance. These movies don't just entertain us, they shape how we understand the complexities of life, love, and identity within one of the world's most diverse cities.</div>
+
+        <!-- Movie #1: One of Them Days -->
+        <div id="movies">
+            <div id="movie1">
+                <div id="movie1-title">One of Them Days (2025)</div>
+                    <img class="movie1-img" src="one-of-them-days-poster.jpg">
+                    <div id="movie1-description">
+                        <p><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of Them Days</em>, produced by the <strong>Issa Rae</strong>, is a comedy that'll have you in stitches from start to finish. The film captures the chaos of life's most relatable, awkward, and hilarious moments, where everything seems to go wrong, but in the best possible way.</p>
+
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With sharp, witty dialogue and a simple yet effective plot, it's a comedy of errors with surprising heart. <strong>Keke Palmer</strong> and <strong>SZA</strong> bring incredible chemistry and flawless comedic timing to the screen, making their dynamic effortless and fun.</p>
+
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A feel-good, laugh-out-loud experience, <em>One of Them Days</em> is a reminder of why comedy is making such a strong comeback in 2025. If you're looking for a good laugh, this movie is a must-watch.</p>
+                    </div>
+
+                    <div id="movie1-container">
+                        <strong><u>Cast</u>:</strong>
+                        <br>
+                        Director: Lawrence Lamont
+                        <br>
+                        Writer: Syreeta Singleton
+                        <br>
+                        Stars: Keke Palmer, SZA, Vanessa Bell Calloway
+                    </div>
+            </div>
+
+            <!-- Movie #2: Boyz n the Hood -->
+            <div id="movie-column">
+                <div id="movie2">
+                    <div id="movie2-title">Boyz n the Hood (1991)</div>
+                        <img class="movie2-img" src="boyz-n-the-hood.jpg">
+                        <div id="movie2-description">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I heard a lot of great things about <em>Boyz n the Hood</em>, but I didn't watch it until recently, and it was the best decision I ever made.</p> 
+                            
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The film's emotional depth and raw portrayal of the struggles of being a Black man in a poor, gang-ridden neighborhood is powerful.</p>
+
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Without spoiling anything, it's a must-watch to understand gang life in America. This movie will always be relevant, it's a real eye-opener and a necessary dose of reality.</p>
+                        </div>
+
+                        <div id="movie2-container">
+                            <strong><u>Cast</u>:</strong>
+                            <br>
+                            Director: John Singleton
+                            <br>
+                            Writer: John Singleton
+                            <br>
+                            Stars: Cuba Gooding Jr., Laurence Fishburne, Angela Bassett, Ice Cube
+                        </div>
+                </div>
+
+                <br>
+
+                <!-- Movie #3: Love and Basketball -->
+                <div id="movie3">
+                    <div id="movie3-title">Love and Basketball (2000)</div>
+                        <img class="movie3-img" src="love-and-basketball.jpg">
+                        <div id="movie3-description"> 
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Love and Basketball</em> is a timeless story about love, dreams, and the challenges of balancing both. It follows Monica and Quincy, childhood friends turned romantic interests, who navigate their careers and personal lives while sharing a deep passion for basketball.</p>
+
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of my favorite moments is when Monica's mom, Camille, tells her that when she said Quincy could do better, she was talking about Monica, showing just how much her mom's opinion meant to her.</p>
+                            
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've watched this movie so many times, and it just gets better with age. The way it explores the complexities of love, ambition, and sacrifice makes it a film that stays with you long after the credits roll.</p>
+                        </div>
+
+                        <div id="movie3-container">
+                            <strong><u>Cast</u>:</strong>
+                            <br>
+                            Director: Gina Prince-Bythewood
+                            <br>
+                            Writer: Gina Prince-Bythewood
+                            <br>
+                            Stars: Sanaa Lathan, Omar Epps, Glenndon Chatman
+                        </div>
+                </div>
+
+                <br>
+
+                <!-- Movie #4: Friday -->
+                <div id="movie4">
+                    <div id="movie4-title">Friday (1995)</div>
+                        <img class="movie4-img" src="friday.jpg">
+                        <div id="movie4-description">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I never get tired of watching <em>Friday</em>! <strong>Ice Cube</strong> and <strong>DJ Pooh</strong> created unforgettable characters like Smokey, the cartoonish sidekick, and Deebo, the perpetual bully, alongside Craig's dad, whose wisdom and calm demeanor stand in sharp contrast to Craig's youthful chaos.</p>
+
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The movie's full of quotable lines, with "Bye, Felicia" being a standout. And of course, there's that <strong><em>DAMNNN</em></strong> image you can hear, just seeing it brings the perfect mix of humor and now common knowledge</p>
+                            
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Friday</em> isn't just a movie, it's a cultural staple that still hits every time.</p>
+                        </div>
+
+                        <div id="movie4-container">
+                            <strong><u>Cast</u>:</strong>
+                            <br>
+                            Director: F. Gary Gary
+                            <br>
+                            Writer: Ice Cube, DJ Pooh
+                            <br>
+                            Stars: Ice Cube, Chris Tucker, Nia Long
+                        </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
